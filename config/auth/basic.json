@@ -1,0 +1,6 @@
+{
+    "name": "basic",
+    "display_name": "Basic Key",
+    "host": "",
+    "public_key": "basic.key"
+}

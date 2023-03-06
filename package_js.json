@@ -1,0 +1,20 @@
+{
+  "name": "nodescannertesting",
+  "version": "1.0.0",
+  "description": "testingIdeasForScanners",
+  "main": "src/server.js",
+  "scripts": {
+    "build": "babel src -d build --source-maps --extensions .ts",
+    "prestart": "npm run build",
+    "start": "node .",
+    "watch": "nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^15.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

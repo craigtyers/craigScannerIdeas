@@ -1,0 +1,5 @@
+{
+    "service_name": "wcag_scanner",
+    "title": "Recite Me Accessibility Scanner (Development)",
+    "url": "http://wcag-scanner.reciteme.local"
+}

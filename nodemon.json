@@ -1,0 +1,9 @@
+{
+    "watch": [
+        "src",
+        "configs",
+        "tstModulesTS"
+    ],
+    "ext": "ts, json",
+    "exec": "npm run start"
+}

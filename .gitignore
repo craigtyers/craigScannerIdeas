@@ -1,0 +1,17 @@
+node_modules
+
+build
+npm-debug.log
+.env
+.DS_Store
+/logs
+/output
+/Tests
+logs
+output
+Tests
+configs/local
+
+.scannerwork/*
+events/custom/
+*.key

@@ -1,0 +1,32 @@
+{
+    "port": 8085,
+    "host": "0.0.0.0",
+
+    "viewports": {
+        "desktop": {
+            "width": 1024,
+            "height": 10000
+        },
+        "mobile": {
+            "width": 600,
+            "height": 1200
+        }
+    },
+
+    "external_tests": {
+        "egAxe": {
+            "url": "someurlpath.net",
+            "resultsFormatter": "someFunctionOrModule",
+            "accessToken": "someAccessToken"
+        }
+    },
+
+    "test_defaults": {
+        "testsPerPage": 1000,
+        "refreshEveryXTests": 2000,
+        "batchSize": 1000,
+        "shotperpage": true
+    },
+    
+    "output_dir": "./output"
+}

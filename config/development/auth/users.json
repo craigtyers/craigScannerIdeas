@@ -1,0 +1,6 @@
+{
+    "name": "sso",
+    "display_name": "ReciteMe SSO JWT Service",
+    "host": "http://users.reciteme.local/api/v1/",
+    "public_key": "oauth-public.key"
+}

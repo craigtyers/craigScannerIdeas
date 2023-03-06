@@ -1,0 +1,51 @@
+{
+    "name": "wcag-scanner",
+    "version": "1.0.0",
+    "description": "A wcag scanner service that performs accessibility scans on webpages.",
+    "extension": "js",
+    "main": "build/index.js",
+    "scripts": {
+        "prebuild": "babel testModulesTS -d testModules --source-maps --extensions .ts",
+        "build": "babel src -d build --source-maps --extensions .ts",
+        "prestart": "npm run build",
+        "start": "node .",
+        "watch": "nodemon ."
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "arch-node-core": "github:ReciteMe/core-node",
+        "axios": "^0.24.0",
+        "babel-plugin-module-resolver": "^4.1.0",
+        "express": "*",
+        "jsonwebtoken": "^8.5.1",
+        "nodemon": "^2.0.15",
+        "puppeteer": "^15.5.0",
+        "socket.io": "^4.4.1",
+        "source-map-support": "^0.5.19",
+        "uuid": "*",
+        "winston": "*"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.14.5",
+        "@babel/core": "^7.14.6",
+        "@babel/plugin-transform-modules-commonjs": "^7.14.5",
+        "@babel/plugin-transform-runtime": "^7.14.5",
+        "@babel/preset-env": "^7.14.7",
+        "@babel/preset-typescript": "^7.14.5",
+        "@types/cors": "*",
+        "@types/elasticsearch": "*",
+        "@types/express": "*",
+        "@types/geoip-lite": "*",
+        "@types/jsonwebtoken": "^8.5.6",
+        "@types/node": "*",
+        "@types/source-map-support": "^0.5.3",
+        "@types/ua-parser-js": "*",
+        "@types/uuid": "*",
+        "@types/winston": "*",
+        "@typescript-eslint/eslint-plugin": "^5.26.0",
+        "@typescript-eslint/parser": "^5.26.0",
+        "eslint": "^8.16.0",
+        "typescript": "*"
+    }
+}
